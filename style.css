@@ -1,0 +1,85 @@
+*{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.parent{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:99%;
+    height:840px;
+    filter: blur(50px);
+}
+.continer{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    top: 190px;
+    left:210px;
+    box-shadow:0 0 30px rgb(131, 129, 129);
+}
+.continer-one{
+    background-image:url(image.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width:420px;
+    height:500px;
+}
+.continer .continer-one img{
+    width:500px;
+}
+.continer-two .two{
+    display: flex;
+    flex-direction: column;
+}
+.continer-two .two h1{
+    text-transform: capitalize;
+    font-weight:550;
+    font-size:x-large;
+    text-align: center;
+}
+.continer-two .two input {
+    border: none;
+    font-size: large;
+    text-transform: capitalize;
+    background-color: rgb(238, 238, 241);
+    margin: 10px 40px;
+    padding:10px 130px;
+    padding-left:10px;
+    transition:0.1s;
+    transition-delay:2ss;
+}
+.continer-two .two input:hover{
+    filter: brightness(95%);
+}
+.continer-two .two textarea{
+    background-color: rgb(238, 238, 241);
+    border: none;
+    margin:10px 40px;
+    padding-left:10px;
+    padding-top: 10px;
+    font-size: large;
+    text-transform: capitalize;
+}
+.continer-two .two textarea:hover{
+    filter: brightness(95%);
+}
+.continer .continer-two .two .submit{
+    background-color:#2ecc71;
+    color: white;
+    padding-left:120px;
+    font-weight:500;
+    margin-top:20px;
+}
+.continer-two .two .submit:hover{
+    filter: brightness(90%);
+}
+
+
+
+
+
+
